@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Manrope";
+  src: url(./fonts/Manrope-VariableFont_wght.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 100 700;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope";
+}
+
+.page {
+  width: 100%;
+  background-color: #ecf2f8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.article__card {
+  display: flex;
+
+  margin: 0 auto;
+  justify-content: center;
+
+
+   border-radius: 10px;
+   overflow: hidden;
+
+  max-width: 730px;
+  box-shadow: 0 40px 40px rgb(201, 213, 225, 50%);
+}
+
+.article-card__img {
+  width: 285px;
+  flex-shrink: 0;
+  object-fit: cover;
+
+
+}
+
+.article-card__content {
+  max-width: 445px;
+  padding: 30px 40px;
+  gap: 24px;
+  background-color:#FFFFFF ;
+
+
+}
+.article-card__title{
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.25px;
+  color: #48556A;
+  margin-bottom: 24px;
+}
+
+
+.article-card__customer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.article-card__autor{
+  border-radius: 50%;
+  margin-right: 16px;
+
+}
+
+.article-card__info{
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0.12%;
+  color: #6E8098;
+  margin-bottom: 24px;
+
+}
+
+
+.article-card__autor-info::first-line {
+  margin: 0;
+  margin-right: 160px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.12%;
+  color: #48556A;
+}
+
+.article-card__autor-info {
+  margin: 0;
+  margin-right: 160px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 140%;
+  color: #9DAEC2;
+}
+
+.article-card__share {
+  width: 32px;
+  height: 32px;
+  background: url(./images/icon-share.svg) center / 15px 13px no-repeat;
+  padding: 9px 8px 10px 9px;
+  border-radius: 50%;
+  background-color: #ECF2F8 ;
+}
+
+.article-card__share{
+  border: none;
+}
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  border: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;}
