@@ -43,12 +43,35 @@
             <p class="article-card__autor-info">
               Michelle Appleton <br />28 Jun 2020
             </p>
-            <button class="article-card__share">
-              <spane class="visually-hidden">SHARE</spane>
-            </button>
+            <div class="article-card__share-wrapper">
+              <button class="article-card__share" type="button">
+                <span class="visually-hidden">SHARE </span>
+              </button>
+              <div class="article-card__share-panel" id="share-panel" hidden>
+                <span class="share-panel__share">SHARE</span>
+                <a
+                  class="share-panel__fb"
+                  href="#"
+                  width="20px"
+                  height="20px"
+                  aria-label="Share on Facebook"
+                ></a>
+                <a
+                  class="share-panel__twi"
+                  href="#"
+                  aria-label="Share on Twitter"
+                ></a>
+                <a
+                  class="share-panel__pin"
+                  href="#"
+                  aria-label="Share on Pinteres"
+                ></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </main>
+    <script src="./script"></script>
   </body>
 </html>

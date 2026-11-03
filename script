@@ -1,0 +1,7 @@
+const shareButton = document.querySelector(".article-card__share");
+const panel = document.getElementById("share-panel");
+
+shareButton.addEventListener("click", () => {
+  panel.hidden = !panel.hidden;
+});
+console.log("Файл script.js загрузился");
